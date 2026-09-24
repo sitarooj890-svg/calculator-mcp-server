@@ -1,13 +1,13 @@
 from flask import Flask, jsonify, request, send_from_directory
 
-from calculator_mcp_server.core import add as _add
-from calculator_mcp_server.core import subtract as _subtract
-from calculator_mcp_server.core import multiply as _multiply
-from calculator_mcp_server.core import divide as _divide
-from calculator_mcp_server.core import power as _power
-from calculator_mcp_server.core import modulo as _modulo
-from calculator_mcp_server.core import square as _square
-from calculator_mcp_server.core import cube as _cube
+from core import add as _add
+from core import subtract as _subtract
+from core import multiply as _multiply
+from core import divide as _divide
+from core import power as _power
+from core import modulo as _modulo
+from core import square as _square
+from core import cube as _cube
 
 app = Flask(__name__)
 
